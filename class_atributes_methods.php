@@ -6,7 +6,7 @@ class Pessoa {
     public $peso;
 
     public function Falar(){
-        echo $this->nome. " de " .$this->idade. " anos, acabou de falar <br>";
+    echo $this->nome. " de " .$this->idade. " anos, acabou de falar e ele(a) pesa " .$this->peso. "kg, <br>";
     }
 
     public function Somar(){
@@ -27,7 +27,7 @@ class Pessoa {
 };
 
 $leticia = new Pessoa();
-$leticia->nome = "Leticia Yohranna";
+$leticia->nome = "Leticia Carvalho";
 $leticia->idade = 17;
 $leticia->peso = 55;
 $leticia->falar();

@@ -41,7 +41,6 @@ $logar = new Login();
 $logar->setEmail("angelo@gmail.com");
 $logar->setSenha("123");
 $logar->setSenhaConfirm("123");
-
 $logar->Logar();
 //Os valores abaixo funcionam apenas com as variaveis da classe definidas como "public"
 
