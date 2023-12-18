@@ -32,7 +32,8 @@ class Login {
         if($this->email == 'angelo@gmail.com' and $this->senha == '123' and $this->senhaConfirm == $this->senha) {
             echo "Logado com sucesso";
         }else{
-            echo "Email ou senha inválidos";
+            echo "Email ou senha inválidos ";
+
         }
     }
 }
@@ -42,6 +43,7 @@ $logar->setEmail("angelo@gmail.com");
 $logar->setSenha("123");
 $logar->setSenhaConfirm("123");
 $logar->Logar();
+
 //Os valores abaixo funcionam apenas com as variaveis da classe definidas como "public"
 
 //$logar->email = "angelo@gmail.com";
