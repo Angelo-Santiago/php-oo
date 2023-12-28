@@ -1,4 +1,5 @@
 <?php
+$lista = [1, 9, 20, 40];
 
 class Pessoa {
     public $nome;
@@ -21,6 +22,7 @@ class Pessoa {
         echo $this->nome. " é menor de idade".'<br>';
     }else{
         echo "É maior de idade". '<br>';
+      
     }
 
 }
