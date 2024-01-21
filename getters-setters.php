@@ -38,7 +38,7 @@ class Login {
     }
 }
 
-$logar = new Login();
+$logar = new Login($email, $senha, $senhaConfirm);
 $logar->setEmail("angelo@gmail.com");
 $logar->setSenha("123");
 $logar->setSenhaConfirm("123");
